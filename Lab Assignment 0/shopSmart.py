@@ -37,24 +37,33 @@ def shopSmart(orderList, fruitShops):
     fruitShops: List of FruitShops
     """
     "*** YOUR CODE HERE ***"
-    min_cost = float('inf') # High Value 
-    best_shop = None
 
+    sol = fruitShops[0].getPriceOfOrder(orderList)
+    best_shop = fruitShops[0]
     for shop in fruitShops:
-        total_cost = 0.0
-        for fruit, numPound in orderList:
-            if fruit in shop.fruitPrices:
-                total_cost += shop.fruitPrices[fruit] * numPound
-            else:
-                # if does not sell then skip 
-                total_cost = float('inf')
-                break
-
-        if total_cost < min_cost:
-            min_cost = total_cost
+        cost = shop.getPriceOfOrder(orderList)
+        if(sol > cost):
             best_shop = shop
-
     return best_shop
+    
+    # min_cost = float('inf') # High Value 
+    # best_shop = None
+
+    # for shop in fruitShops:
+    #     total_cost = 0.0
+    #     for fruit, numPound in orderList:
+    #         if fruit in shop.fruitPrices:
+    #             total_cost += shop.fruitPrices[fruit] * numPound
+    #         else:
+    #             # if does not sell then skip 
+    #             total_cost = float('inf')
+    #             break
+
+    #     if total_cost < min_cost:
+    #         min_cost = total_cost
+    #         best_shop = shop
+
+    # return best_shop
 
 
 
