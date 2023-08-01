@@ -1,0 +1,23 @@
+The function depthFirstSearch takes a problem as input, where problem is an instance of a SearchProblem class. The SearchProblem class represents a generic search problem and provides methods like getStartState, isGoalState, and getSuccessors to define the problem.
+
+A stack named stack is initialized to hold tuples representing the state, actions, total cost, and explored states.
+
+The starting state is pushed onto the stack as a 4-tuple: (problem.getStartState(), [], 0, set()). The first element is the starting state, the second element is a list of actions taken to reach that state, the third element is the total cost of actions taken to reach that state, and the fourth element is a set containing explored states.
+
+The algorithm enters a loop that continues until the stack becomes empty.
+
+In each iteration of the loop, the top element of the stack is popped. It represents the current state, the actions taken to reach that state, the total cost of actions taken to reach that state, and the set of explored states up to this point.
+
+The algorithm checks if the current state is the goal state using problem.isGoalState(state). If it is, the list of actions taken so far (actions) is returned as the solution.
+
+If the current state is not the goal state, the algorithm checks if the state has not been explored before (i.e., it is not present in the explored set). If it's a new state, it is added to the explored set.
+
+The algorithm then explores all the successors of the current state obtained using problem.getSuccessors(state). For each successor, a new set of actions (new_actions) is created by appending the current action to the list of actions taken so far. The total cost of reaching the successor state (new_cost) is also updated by adding the step cost.
+
+For each successor state, the updated tuple (successor, new_actions, new_cost, explored) is pushed onto the stack for further exploration.
+
+The loop continues until a goal state is found, or the stack becomes empty, meaning no path to the goal state is found.
+
+If no path to the goal is found, the function returns an empty list [], indicating that there is no solution to the problem.
+
+Note: The code assumes that there is a util.Stack() class available that implements a stack data structure, and it also relies on the SearchProblem class, which is not provided in the code snippet. For a complete working example, you would need to define the SearchProblem class and possibly import the required modules, including the util module.
