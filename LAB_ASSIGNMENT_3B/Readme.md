@@ -16,5 +16,4 @@ Optional Questions (for bonus credits):
 Additional file to be submitted for this question: featureExtractors.py
 
 #### Question 8: In Question 1, you developed an agent that does Value Iteration. Now develop an agent which does Policy Iteration. Compare the speed of policy iteration vs value iteration on gridworld. The implementation details are upto you - it could be in a new file or  in existing files. When you make a submission please provide documentation to locate your code.
-Please write to me explicitly if you do manage to submit a solution for either of the bonus questions.
 -----------------------------------------------------------------------------------------
