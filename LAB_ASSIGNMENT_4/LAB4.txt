@@ -1,0 +1,14 @@
+You will now implement concepts you are learning in Bayesian Networks through Project 4 of the 2021 offering of CS188:
+ https://inst.eecs.berkeley.edu/~cs188/sp21/project4/
+
+(as in the previous assignments, following the instructions and documentation systematically will help you develop code).
+
+Please include relevant comments in your code to help us understand your ideas/implementations. Files to be submitted:
+1. factorOperations.py
+2. inference.py
+3. bayesAgents.py
+- Include the group number and the names, roll numbers of the members as comments in the beginning of all files which you are submitting. 
+- Remember that all members of the group should contribute well - there will be surprise vivas. 
+- You are expected to be honest - Plagiarism will not be tolerated.
+- Please ensure that only one person from a group makes the submission.
+Submission date: Oct 17, 2023, 11.59 pm.
