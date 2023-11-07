@@ -1,5 +1,15 @@
 # CS330-Artificial-Intelligence
 
+## Lab Assignment 0
+
+#### The first task is designed to warm you up for the programming component of this course. You will recap python and familiarize yourself with Berkeley University's CS 188 Pacman projects framework. Please go through the instructions on https://inst.eecs.berkeley.edu/~cs188/fa22/projects/proj0/ to setup python 3.6 environment for the lab. Additionally the framework comes with an autograder, which will be useful to verify if you are on track as you build your solutions.  Please note that the autograder could possibly throw errors for later versions of python. So please ensure that you work on a python 3.6 environment.
+Once you have set up the environment, answer questions 1, 2 and 3 of https://inst.eecs.berkeley.edu/~cs188/fa22/projects/proj0/. These are very simple warm up questions and as you answer them please explore how to use the autograder to verify (and possibly debug) your solutions.
+Please ensure that you only fill up the code within the functions specified in the instructions. Do not make any other edits: For example you should not change other files, or any of the function names/arguments.
+You need to edit and submit only the following files:
+1. addition.py, 
+2. buyLotsOfFruit.py, and 
+3. shopSmart.py
+
 ## Lab Assignment 1
 #### Now that your basic setup is ready, over the next few weeks you will implement the concepts you are learning in search problems through Pacman projects (project 1: https://inst.eecs.berkeley.edu/~cs188/fa22/projects/proj1/). There are 8 questions and all questions are compulsory. 
 - Systematically go through the instructions provided in the link above, work out the commands listed and observe the outputs. This will give you a better idea on how the code works. The comments in the code should also guide you through. In some of the relevant functions in search.py, you will see some snippets of code commented out. Running those will also help you to understand the specific search problem representations used.
