@@ -4,7 +4,14 @@
 
 ## Lab Assignment 2
 
-## Lab Assignment 3
+## Lab Assignment 3A
+
+#### Lab assignment 3 is divided into two parts of which part A is now open. The assignment deals with MDPs, value iteration and policy iteration algorithms that you are seeing in class. You will need to develop code from scratch for this assignment. You can do your implementation in either python, C or C++.
+Files to be submitted:
+ - Code files
+ - Brief report with answers to the specific questions asked.
+ - 
+## Lab Assignment 3B
 
 #### You will apply the concepts in MDPs and Reinforcement learning in applications like gridworld, pacman etc. (project 3: https://inst.eecs.berkeley.edu/~cs188/fa22/projects/proj3/). All questions listed on the page are compulsory. Also at the end of the instructions here in classroom, you will find two additional optional questions for bonus credit.As in the previous assignments, following the instructions and documentation systematically will help you develop code. Please include relevant comments in your code to help us understand your ideas/implementations.Files to be submitted:
 1. valueIterationAgents.py
