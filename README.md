@@ -4,7 +4,12 @@
 
 ## Lab Assignment 2
 
-## Lab Assignment 2
+## Lab Assignment 3
+
+#### You will apply the concepts in MDPs and Reinforcement learning in applications like gridworld, pacman etc. (project 3: https://inst.eecs.berkeley.edu/~cs188/fa22/projects/proj3/). All questions listed on the page are compulsory. Also at the end of the instructions here in classroom, you will find two additional optional questions for bonus credit.As in the previous assignments, following the instructions and documentation systematically will help you develop code. Please include relevant comments in your code to help us understand your ideas/implementations.Files to be submitted:
+1. valueIterationAgents.py
+2. qlearningAgents.py
+3. analysis.py
 
 ## Lab Assignment 4
 
